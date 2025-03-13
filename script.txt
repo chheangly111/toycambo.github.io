@@ -2,7 +2,7 @@
 <html lang="km">
 <head>
     <meta charset="UTF-8">
-    <title>គេហទំព័រដំបូងរបស់ខ្ញុំ</title>
+    <title>Welcome to Toy Cambo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: Hex #0000FF;
             color: white;
             text-align: center;
             padding: 1em;
