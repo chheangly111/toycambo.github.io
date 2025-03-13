@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="km">
 <head>
     <meta charset="UTF-8">
@@ -75,7 +74,7 @@
 
     <!-- ប្រអប់ខាងក្រោម (Footer) -->
     <footer>
-        <p>បានបង្កើតដោយ [ឈ្មោះអ្នក] © 2024</p>
+        <p>toycambo by Hcl</p>
     </footer>
 </body>
 </html>
