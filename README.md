@@ -1,39 +1,93 @@
-[<html lang="km">
+<!DOCTYPE html>
+<html lang="km">
 <head>
     <meta charset="UTF-8">
-    <title>គេហទំព័រដំបូងរបស់ខ្ញុំ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toycambo - លក់ប្រដាប់ក្មេងលេង និងកាំភ្លើងទឹក</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff;
+            background-color: #f9f9f9;
         }
 
         header {
-            background-color: #4CAF50;
+            background-color: #0000FF;
             color: white;
             text-align: center;
-            padding: 1em;
+            padding: 2em;
         }
 
         nav {
             background-color: #333;
             padding: 1em;
+            text-align: center;
         }
 
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 16px;
+            font-weight: bold;
         }
 
         .content {
-            max-width: 800px;
+            max-width: 1200px;
             margin: 20px auto;
             padding: 20px;
             background-color: white;
             border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .product-card p {
+            color: #555;
+        }
+
+        .product-card button {
+            background-color: #0000FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-card button:hover {
+            background-color: #FF0000;
         }
 
         footer {
@@ -41,41 +95,96 @@
             color: white;
             text-align: center;
             padding: 1em;
-            position: fixed;
+            position: relative;
             bottom: 0;
             width: 100%;
+        }
+
+        .contact-form {
+            margin-top: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #0000FF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #FF0000;
         }
     </style>
 </head>
 <body>
     <!-- ប្រអប់ខាងលើ (Header) -->
     <header>
-        <h1>សួស្តី! ជំរាបសួរមកកាន់គេហទំព័ររបស់ខ្ញុំ</h1>
+        <h1>Toycambo</h1>
+        <p>លក់ប្រដាប់ក្មេងលេង និងកាំភ្លើងទឹក</p>
     </header>
 
     <!-- ប៊ូតុងម៉ឺនុយ (Navigation) -->
     <nav>
         <a href="#home">ទំព័រដើម</a>
-        <a href="#about">អំពីខ្ញុំ</a>
+        <a href="#about">អំពីយើង</a>
+        <a href="#products">ផលិតផល</a>
         <a href="#contact">ទំនាក់ទំនង</a>
     </nav>
 
     <!-- មាតិកាសំខាន់ (Main Content) -->
     <div class="content">
-        <h2>ស្វាគមន៍មកកាន់គេហទំព័ររបស់ខ្ញុំ</h2>
-        <p>នេះគឺជាគេហទំព័រដំបូងដែលខ្ញុំបានបង្កើត។ ខ្ញុំរំភើបណាស់!</p>
-        
-        <h3>អំពីខ្ញុំ</h3>
-        <p>ខ្ញុំជាអ្នកចាប់ផ្តើមរៀនសរសេរ Code។ ខ្ញុំស្រឡាញ់ការបង្កើតគេហទំព័រ។</p>
+        <h2>ស្វាគមន៍មកកាន់ Toycambo!</h2>
+        <p>យើងខ្ញុំផ្តល់នូវប្រដាប់ក្មេងលេង និងកាំភ្លើងទឹកដែលមានគុណភាពខ្ពស់។</p>
 
-        <h3>ទំនាក់ទំនង</h3>
-        <p>Email: example@email.com<br>ទូរស័ព្ទ: 012 345 678</p>
+        <!-- ផ្នែកផលិតផល (Products) -->
+        <h3>ផលិតផលពេញនិយម</h3>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Toy 1">
+                <h3>ប្រដាប់ក្មេងលេង 1</h3>
+                <p>តម្លៃ: $10</p>
+                <button>ទិញឥឡូវនេះ</button>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250" alt="Toy 2">
+                <h3>ប្រដាប់ក្មេងលេង 2</h3>
+                <p>តម្លៃ: $15</p>
+                <button>ទិញឥឡូវនេះ</button>
+            </div>
+            <div class="product-card">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Water Gun 1">
+                <h3>កាំភ្លើងទឹក 1</h3>
+                <p>តម្លៃ: $20</p>
+                <button>ទិញឥឡូវនេះ</button>
+            </div>
+        </div>
+
+        <!-- ផ្នែកទំនាក់ទំនង (Contact Form) -->
+        <h3>ទំនាក់ទំនងយើងខ្ញុំ</h3>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="ឈ្មោះរបស់អ្នក" required>
+                <input type="email" name="email" placeholder="អ៊ីមែលរបស់អ្នក" required>
+                <textarea name="message" placeholder="សាររបស់អ្នក" rows="5" required></textarea>
+                <button type="submit">ផ្ញើសារ</button>
+<a href="https://t.me/ToycamboPP">Telegram</a>
+            </form>
+        </div>
     </div>
 
     <!-- ប្រអប់ខាងក្រោម (Footer) -->
     <footer>
-        <p>toycambo by Hcl</p>
+        <p>បង្កើតដោយ Toycambo | © 2024 រក្សាសិទ្ធិគ្រប់យ៉ាង</p>
     </footer>
 </body>
 </html>
-](https://chheangly111.github.io/toycambo.github.io/)
