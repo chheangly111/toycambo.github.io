@@ -86,7 +86,7 @@
         }
 
         .product-card button:hover {
-            background-color: #FF0000;
+            background-color: #FF00;
         }
 
         footer {
@@ -112,7 +112,7 @@
         }
 
         .contact-form button {
-            background-color: #0000FF;
+            background-color: #FFFF00;
             color: white;
             border: none;
             padding: 10px 20px;
@@ -149,13 +149,13 @@
         <h3>ផលិតផលពេញនិយម</h3>
         <div class="product-grid">
             <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Toy 1">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 1">
                 <h3>ប្រដាប់ក្មេងលេង 1</h3>
                 <p>តម្លៃ: $10</p>
                 <button>ទិញឥឡូវនេះ</button>
             </div>
             <div class="product-card">
-                <img src="https://via.placeholder.com/250" alt="Toy 2">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 2">
                 <h3>ប្រដាប់ក្មេងលេង 2</h3>
                 <p>តម្លៃ: $15</p>
                 <button>ទិញឥឡូវនេះ</button>
@@ -172,11 +172,7 @@
         <h3>ទំនាក់ទំនងយើងខ្ញុំ</h3>
         <div class="contact-form">
             <form action="#" method="post">
-                <input type="text" name="name" placeholder="ឈ្មោះរបស់អ្នក" required>
-                <input type="email" name="email" placeholder="អ៊ីមែលរបស់អ្នក" required>
-                <textarea name="message" placeholder="សាររបស់អ្នក" rows="5" required></textarea>
-                <button type="submit">ផ្ញើសារ</button>
-<a href="https://t.me/ToycamboPP">Telegram</a>
+              <button type="submit"><a href="https://t.me/ToycamboPP">Telegram</a></button>
             </form>
         </div>
     </div>
