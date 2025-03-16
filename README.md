@@ -1,3 +1,4 @@
+
 <html lang="km">
 <head>
     <meta charset="UTF-8">
@@ -5,7 +6,7 @@
     <title>Toycambo - លក់ប្រដាប់ក្មេងលេង និងកាំភ្លើងទឹក</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Times New Roman, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
@@ -42,7 +43,7 @@
 
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
             margin-top: 20px;
         }
@@ -131,6 +132,22 @@
         <h1>Toycambo</h1>
         <p>លក់ប្រដាប់ក្មេងលេង និងកាំភ្លើងទឹក</p>
     </header>
+    <body>
+    <div class="clock" id="clock">កំពុងគណនា...</div>
+
+    <script>
+        // មុខងារសម្រាប់បង្ហាញម៉ោង
+        function updateTime() {
+            const now = new Date(); // ទាញយកម៉ោងបច្ចុប្បន្ន
+            const options = { timeZone: 'Asia/Phnom_Penh', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const timeString = now.toLocaleTimeString('km-KH', options); // បង្ហាញម៉ោងជាភាសាខ្មែរ
+            document.getElementById('clock').textContent = timeString; // ដាក់ម៉ោងទៅក្នុង HTML
+        }
+
+        // ធ្វើឱ្យម៉ោងផ្លាស់ប្តូររាល់ 1 វិនាទី
+        setInterval(updateTime, 1000);
+        updateTime(); // ហៅមុខងារលើកដំបូង
+    </script>
 
     <!-- ប៊ូតុងម៉ឺនុយ (Navigation) -->
     <nav>
