@@ -147,15 +147,6 @@
         setInterval(updateTime, 1000);
         updateTime(); // ហៅមុខងារលើកដំបូង
     </script>
-
-    <!-- ប៊ូតុងម៉ឺនុយ (Navigation) -->
-    <nav>
-        <a href="#home">ទំព័រដើម</a>
-        <a href="#about">អំពីយើង</a>
-        <a href="#products">ផលិតផល</a>
-        <a href="#contact">ទំនាក់ទំនង</a>
-    </nav>
-
     <!-- មាតិកាសំខាន់ (Main Content) -->
     <div class="content">
         <h2>ស្វាគមន៍មកកាន់ Toycambo!</h2>
@@ -165,11 +156,41 @@
         <h3>ផលិតផលពេញនិយម</h3>
         <div class="product-grid">
             <div class="product-card">
-                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 1">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqgbkha/1.png" alt="Toy 1">
                 <h3>ប្រដាប់ក្មេងលេង 1</h3>
                 <p>តម្លៃ: $10</p>
                 <button>ទិញឥឡូវនេះ</button>
             </div>
+            <div class="product-card">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqgbkha/9.png" alt="Toy 2">
+                <h3>ប្រដាប់ក្មេងលេង 2</h3>
+                <p>តម្លៃ: $15</p>
+                <button>ទិញឥឡូវនេះ</button>
+                </div>
+            <div class="product-card">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqgbkha/13.png" alt="Toy 2">
+                <h3>ប្រដាប់ក្មេងលេង 2</h3>
+                <p>តម្លៃ: $15</p>
+                <button>ទិញឥឡូវនេះ</button>
+                </div>
+            <div class="product-card">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 2">
+                <h3>ប្រដាប់ក្មេងលេង 2</h3>
+                <p>តម្លៃ: $15</p>
+                <button>ទិញឥឡូវនេះ</button>
+                </div>
+            <div class="product-card">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 2">
+                <h3>ប្រដាប់ក្មេងលេង 2</h3>
+                <p>តម្លៃ: $15</p>
+                <button>ទិញឥឡូវនេះ</button>
+                </div>
+            <div class="product-card">
+                <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 2">
+                <h3>ប្រដាប់ក្មេងលេង 2</h3>
+                <p>តម្លៃ: $15</p>
+                <button>ទិញឥឡូវនេះ</button>
+                </div>
             <div class="product-card">
                 <img src="https://assets.onecompiler.app/43bqg7kby/43bqdfxby/19.png" alt="Toy 2">
                 <h3>ប្រដាប់ក្មេងលេង 2</h3>
@@ -189,6 +210,11 @@
         <div class="contact-form">
             <form action="#" method="post">
               <button type="submit"><a href="https://t.me/ToycamboPP">Telegram</a></button>
+            </form>
+        </div>
+        <div class="contact-form">
+            <form action="#" method="post">
+              <button type="submit"><a href="https://www.facebook.com/profile.php?id=100066683705736">Facebook</a></button>
             </form>
         </div>
     </div>
